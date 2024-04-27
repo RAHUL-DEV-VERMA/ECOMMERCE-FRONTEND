@@ -13,7 +13,7 @@ const PieCharts = () => {
 
   const order = data?.charts.orderFullfillment!;
   const categories = data?.charts.productCategories!;
-  const stock = data?.charts.stockAvailablity!;
+  const stock = data?.charts.stockAvailability!;
   const revenue = data?.charts.revenueDistribution!;
   const ageGroup = data?.charts.usersAgeGroup!;
   const adminCustomer = data?.charts.adminCustomer!;
@@ -116,7 +116,7 @@ const PieCharts = () => {
                     "Adult (20-40)",
                     "Older (above 40)",
                   ]}
-                  data={[ageGroup.teen, ageGroup.adult, ageGroup.old]}
+                  data={[ageGroup.teen, ageGroup.adult, ageGroup.ole]}
                   backgroundColor={[
                     `hsl(10, ${80}%, 80%)`,
                     `hsl(10, ${80}%, 50%)`,
